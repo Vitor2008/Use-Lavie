@@ -1,0 +1,238 @@
+
+/* Desktop (col-lg) 992px+ */
+@media (min-width: 992px) {
+
+}
+
+/* Desktop e Tablets(col-md) 768px a 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/* Tablets(col-sm) 576px a 767px */
+@media (min-width: 576px) and (max-width: 767px) {
+    
+}
+
+/* Tablets e celulares (col) 0px a 767px */
+@media (max-width: 767px) {
+
+    .no-mobile{
+        display: none;
+    }
+
+    .col-one{
+        padding-left: 35px!important;
+        padding-right: 35px!important;
+    }
+
+    .img-logo{
+        width: 65px!important;
+    }
+
+    .navbar-toggler-icon{
+        padding-top: 5px;
+    }
+
+    .navbar-collapse{
+        background-color: var(--color-text-out);
+        padding: 20px;
+        text-align: center;
+        border-radius: 40px;
+    }
+
+    .navbar-collapse .btn-white{
+        margin-top: 20px;
+    }
+
+    .navbar-collapse .btn-icon{
+        padding-right: 20px;
+    }
+
+    .navbar-collapse .btn-icon span.icon{
+        display: none;
+    }
+
+    .banner {
+        padding-top: 150px;
+        padding-bottom: 80px;
+    }
+
+    .text-banner h1{
+        font-size: 36px;
+    }
+
+    .text-banner p{
+        font-size: 18px;
+    }
+
+    .btn-yellow, .btn-white{
+        padding: 13px 23px;
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+   
+
+    .servicos{
+        padding-bottom: 50px;
+    }
+
+    .vitrine{
+        padding-bottom: 50px;
+    }
+
+    .container-menu{
+        overflow-x: auto;
+        overflow-y: hidden;
+        display: flex;
+        padding-bottom: 15px;
+        padding-top: 30px;
+    }
+
+
+    .card-item{
+        height: 415px!important;
+    }
+
+    .card-item .img-produto img{
+        width: 280px!important;
+    }
+
+    .title-produto{
+        height: 30px!important;
+        width: 100%;
+        text-align: center!important;
+        font-size: 20px!important;
+    }
+
+    .depoimentos .col-top{
+        padding-top: 0px!important;
+    }
+
+    .end{
+        padding-top: 0px!important;
+        padding-bottom: 250px!important;
+    }
+
+    .end p{
+        font-size: 20px;
+    }
+
+    .end-banner{
+        margin-top: 40px;
+        margin-bottom: 160px;
+    }
+
+
+    .container-logo-footer{
+        justify-content: center;
+    }
+
+    .container-texto-footer p{
+        text-align: center;
+    }
+
+    .container-redes-footer {
+        margin-top: 60px;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+
+    footer .end{
+        padding-bottom: 20px!important;
+    }
+
+    .modal-full{
+        padding: 40px;
+    }
+
+    .modal-full .item-bag{
+        padding-left: 0;
+        padding-right: 0;
+    }  
+    
+    .modal-full .img-produto{
+        position: relative;
+        left: 0;
+    }
+
+    .modal-full .img-produto img{
+        width: 50px;
+    }
+
+    .modal-full .dados-produto{
+        padding-left: 15px;
+        padding-right: 15px;
+        display: grid;
+    }
+
+    .modal-full .title-produto, .modal-full .price-produto{
+        font-size: 16px!important;
+    }
+
+    .modal-full .add-numero-itens{
+        padding: 2px 10px;
+    }
+
+    .modal-full .form-control{
+        font-size: 16px;
+    }
+
+    
+    
+}
+
+
+@media (max-width: 450px){
+    .modal-full .m-header .btn{
+        font-size: 15px!important;
+    }
+
+    .container-cep .btn{
+      font-size: 12px!important;
+    }
+
+    .modal-full .btn-white, .modal-full .btn-yellow {
+       font-size: 14px!important;
+    }
+   
+
+}
+
+
+@media (max-width: 370px){
+
+    .card-item .img-produto img{
+        width: 250px!important;
+    }
+
+    .modal-full .btn-white, .modal-full .btn-yellow {
+        font-size: 13px!important;
+     }
+
+     .card-item{
+        height: 390px!important;
+    }
+
+}
+
+@media (max-width: 320px){
+
+
+    .card-item .img-produto img{
+        width: 220px!important;
+    }
+
+    .modal-full .btn-white, .modal-full .btn-yellow {
+        font-size: 9px!important;
+     }
+
+     .card-item{
+        height: 360px!important;
+    }
+
+}
