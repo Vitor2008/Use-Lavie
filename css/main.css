@@ -60,7 +60,7 @@ b {
 
 
 .navbar-brand img{
-    width: 110px;
+    width: 90px;
 }
 
 .btn-white{
@@ -115,8 +115,15 @@ b {
     z-index: 2990;
 }
 
+.header .nav-item{
+    font-size: 20px;
+}
+
+
+
+
 .banner{
-    padding-top: 190px;
+    padding-top: 200px;
     padding-bottom: 100px;
 }
 
@@ -294,7 +301,10 @@ b {
 .card-item .img-produto img{
     width: 90%;
     border-radius: 11px;
+    transition: transform 0.5s ease;
 }
+
+
 
 .card-item .title-produto{
     color: var(--color-black);
@@ -371,6 +381,12 @@ b {
 .card-item:hover .price-produto{
     color: var(--color-heavy)!important;
     margin-top: 20px;
+}
+
+
+
+#btnVermais{
+    display: none;
 }
 
 .depoimentos {

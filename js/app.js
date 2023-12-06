@@ -23,6 +23,10 @@ function ativarMenuAoScroll() {
     });
 }
 
+
+
+
+
 // Chama a função ao carregar a página
 window.addEventListener('load', ativarMenuAoScroll);
 
@@ -64,9 +68,8 @@ var MINHA_BAG = [];
 var MEU_ENDERECO = null;
 
 var VALOR_BAG = 0;
-var VALOR_ENTREGA = 10;
 
-var CELEULAR_EMPRESA = '5565999259264';
+var CELEULAR_EMPRESA = '5565992741259';
 
 vitrine.eventos = {
 
@@ -375,7 +378,6 @@ vitrine.metodos = {
         VALOR_BAG = 0;
 
         $("#lblSubtotal").text('R$ 0,00');
-        $("#lblValorEntrega").text('+ R$ 0,00');
         $("#lblValorTotal").text('R$ 0,00');
 
         $.each(MINHA_BAG, (i, e) => {
@@ -384,8 +386,7 @@ vitrine.metodos = {
 
             if ((i + 1) == MINHA_BAG.length) {
                 $("#lblSubtotal").text(`R$ ${VALOR_BAG.toFixed(2).replace('.',',')}`);
-                $("#lblValorEntrega").text(`+ R$ ${VALOR_ENTREGA.toFixed(2).replace('.',',')}`);
-                $("#lblValorTotal").text(`R$ ${(VALOR_BAG + VALOR_ENTREGA).toFixed(2).replace('.',',')}`);
+                $("#lblValorTotal").text(`R$ ${(VALOR_BAG).toFixed(2).replace('.',',')}`);
             }
         })
     },
@@ -540,7 +541,7 @@ vitrine.metodos = {
             texto += '\n*Endereço de entrega:*';
             texto += `\n${MEU_ENDERECO.endereco}, ${MEU_ENDERECO.numero}, ${MEU_ENDERECO.bairro}`;
             texto += `\n${MEU_ENDERECO.cidade}-${MEU_ENDERECO.uf} / ${MEU_ENDERECO.cep} ${MEU_ENDERECO.complemento}`;
-            texto += `\n\n*Total (com entrega): R$ ${(VALOR_BAG + VALOR_ENTREGA).toFixed(2).replace('.',',')}*`;
+            texto += `\n\n*Total: R$ ${(VALOR_BAG).toFixed(2).replace('.',',')}*`;
 
             var itens = '';
 

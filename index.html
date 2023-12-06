@@ -53,9 +53,6 @@
                             <li class="nav-item">
                                 <a href="#vitrine" class="nav-link"><b>Looks</b></a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#depoimentos" class="nav-link"><b>Depoimentos</b></a>
-                            </li>
                         </Ul>
                         <a class="btn btn-white btn-icon" onclick="vitrine.metodos.abrirSacola(true)">
                             <b>Meu carrinho</b>
@@ -88,14 +85,10 @@
                             </a>
                         </div>
                     </div>
-                    <a class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-08s" target="_blank">
+                    <a href="https://instagram.com/usela.vie?utm_source=qr" class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-08s" target="_blank">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-08s" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a
-                     href="#" class="btn btn-sm btn-white btn-social mt-4 wow fadeIn delay-08s" id="btnWhatsApp" target="_blank">
+                    <a href="#" class="btn btn-sm btn-white btn-social mt-4 wow fadeIn delay-08s" id="btnWhatsApp" target="_blank">
                         <i class="fab fa-whatsapp"></i>
                     </a>
                 </div>
@@ -169,13 +162,19 @@
 
                 <div class="col-12 col-one container-menu wow fadeInUp">
                     <a id="menu-conjunto" class="btn btn-pink btn-sm mr-3 active" onclick="vitrine.metodos.obterItensVitrine('conjunto')">
-                        <img src="./img/conjunto.png" alt="conjunto">&nbsp; <b>Conjuntos</b>
+                        <img src="./img/conjunto.png" alt="conjunto">&nbsp; <b>Conjunto</b>
+                    </a>
+                    <a id="menu-vestido" class="btn btn-pink btn-sm mr-3" onclick="vitrine.metodos.obterItensVitrine('vestido')">
+                        <img src="./img/vestido.png" alt="vestido">&nbsp;<b>Vestido</b>
+                    </a>
+                    <a id="menu-macaquinho" class="btn btn-pink btn-sm mr-3" onclick="vitrine.metodos.obterItensVitrine('macaquinho')">
+                        <img src="./img/macaquinho.png" alt="macaquinho">&nbsp;<b>Macaquinho</b>
                     </a>
                     <a id="menu-cropped" class="btn btn-pink btn-sm mr-3" onclick="vitrine.metodos.obterItensVitrine('cropped')">
-                        <img src="./img/blusa.png" alt="conjunto">&nbsp;<b>Cropped</b>
+                        <img src="./img/blusa.png" alt="cropped">&nbsp;<b>Cropped</b>
                     </a>
                     <a id="menu-short" class="btn btn-pink btn-sm mr-3" onclick="vitrine.metodos.obterItensVitrine('short')">
-                        <img src="./img/short.png" alt="conjunto">&nbsp;<b>Short</b>
+                        <img src="./img/short.png" alt="short">&nbsp;<b>Short</b>
                     </a>
                 </div>
 
@@ -195,105 +194,7 @@
         </div>
     </section>
 
-    <section class="depoimentos" id="depoimentos">
-        <div class="container">
-            <div class="col-12 col-one text-center mb-5 wow fadeIn">
-                <h1 class="title">
-                    <b>O que dizem sobre <b class="color-primary">nós?</b></b>
-                </h1>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-5 no-mobile text-center">
-                    <div class="card-depoimentos wow fadeInUp"></div>
-                    <div class="d-flex img-banner wow fadeInLeft delay-02s">
-                        <img src="./img/logo.png" />
-                    </div>
-                </div>
-                <div class="col-12 col-lg-7 col-md-7 col-sm-12 col-one col-top">
-                    <div class="mb-5 wow fadeIn">
-
-                        <div class="depoimento animated fadeIn" id="depoimento-1">
-                            <div class="container-dados-depoimento">
-                                <div class="imagem-depoimento"></div>
-                                <div>
-                                    <p class="nome-depoimento"><b>Leticia</b></p>
-                                    <p class="nota-depoimento">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>&nbsp; <span>5.0</span>
-                                    </p>
-                                </div>
-                            </div>
-                            <p class="texto-depoimento">
-                                <i class="fas fa-quote-left"></i>
-                                <span>
-                                    As roupas são lindas e confortáveis. Eu realmente sinto que eles entendem
-                                    o que as mulheres procuram em suas roupas.
-                                </span>
-                                <i class="fas fa-quote-right"></i>
-                            </p>
-                        </div>
-
-                        <div class="depoimento animated fadeIn hidden" id="depoimento-2">
-                            <div class="container-dados-depoimento">
-                                <div class="imagem-depoimento"></div>
-                                <div>
-                                    <p class="nome-depoimento"><b>Sueli</b></p>
-                                    <p class="nota-depoimento">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>&nbsp; <span>4.5</span>
-                                    </p>
-                                </div>
-                            </div>
-                            <p class="texto-depoimento">
-                                <i class="fas fa-quote-left"></i>
-                                <span>
-                                    É ótimo ver uma vitrine que está sempre atualizada com as últimas tendências
-                                    da moda. Eu me sinto na moda sempre que compro aqui.
-                                </span>
-                                <i class="fas fa-quote-right"></i>
-                            </p>
-                        </div>
-
-                        <div class="depoimento animated fadeIn hidden" id="depoimento-3">
-                            <div class="container-dados-depoimento">
-                                <div class="imagem-depoimento"></div>
-                                <div>
-                                    <p class="nome-depoimento"><b>Rosângela</b></p>
-                                    <p class="nota-depoimento">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>&nbsp; <span>5.0</span>
-                                    </p>
-                                </div>
-                            </div>
-                            <p class="texto-depoimento">
-                                <i class="fas fa-quote-left"></i>
-                                <span>
-                                    Adoro as roupas desta loja! Sempre encontro as últimas tendências
-                                    da moda e os preços são incríveis.
-                                </span>
-                                <i class="fas fa-quote-right"></i>
-                            </p>
-                        </div>
-                    </div>
-
-                    <br>
-                    <a id="btnDepoimento-1" class="btn btn-sm btn-white btn-social mr-3 active wow fadeIn" onclick="vitrine.metodos.abrirDepoimento(1)">1</a>
-                    <a id="btnDepoimento-2" class="btn btn-sm btn-white btn-social mr-3 wow fadeIn" onclick="vitrine.metodos.abrirDepoimento(2)">2</a>
-                    <a id="btnDepoimento-3" class="btn btn-sm btn-white btn-social wow fadeIn" onclick="vitrine.metodos.abrirDepoimento(3)">3</a>
-                </div>
-            </div>
-        </div>
-    </section>
+ 
 
     <section class="end" id="end">
         <div class="container">
@@ -335,11 +236,8 @@
                 </div>
 
                 <div class="col-12 col-lg-3 col-md-3 col-sm-12 col-one container-redes-footer wow fadeIn">
-                    <a class="btn btn-sm btn-white btn-social mr-3" target="_blank">
+                    <a href="https://instagram.com/usela.vie?utm_source=qr" class="btn btn-sm btn-white btn-social mr-3" target="_blank">
                         <i class="fab fa-instagram"></i>
-                    </a>
-                    <a class="btn btn-sm btn-white btn-social mr-3" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
                     </a>
                     <a href="#" class="btn btn-sm btn-white btn-social" id="btnWhatsAppFooter" target="_blank">
                         <i class="fab fa-whatsapp"></i>
@@ -504,8 +402,7 @@
                         <span id="lblSubtotal">R$ 0,00</span>
                     </p>
                     <p class="mb-0 texto-entrega">
-                        <span><i class="fa fa-motorcycle"></i> Entrega</span>
-                        <span id="lblValorEntrega">+ R$ 0,00</span>
+                        <span><i class="fa fa-motorcycle"></i> Consunte a taxa ao enviar o pedido</span>
                     </p>
                     <p class="mb-0 texto-total">
                         <span><b>Total:</b></span>
