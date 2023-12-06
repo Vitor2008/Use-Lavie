@@ -22,20 +22,18 @@ var MENU = {
             "price": 84.99
         },
     ],
-    "vestido": [
-        {
-            "id": "vestido-helena-farm",
-            "img": "./img/vitrine/vestido/Vestido Helena Farm.png",
-            "name": "Vestido Helena Farm",
-            "dsc": "...",
-            "price": 94.90
-        },
-    ],
     "macaquinho": [
         {
             "id": "macaquinho-tania-farm",
             "img": "./img/vitrine/macaquinho/Macaquinho Tânia Farm.png",
             "name": "Macaquinho Tânia Farm",
+            "dsc": "...",
+            "price": 94.90
+        },
+        {
+            "id": "macaquinho-helena-farm",
+            "img": "./img/vitrine/macaquinho/Macaquinho Helena Farm.png",
+            "name": "Macaquinho Helena Farm",
             "dsc": "...",
             "price": 94.90
         },
@@ -51,7 +49,7 @@ var MENU = {
         {
             "id": "short-saia",
             "img": "./img/vitrine/short/Short saia Pink.png",
-            "name": "Short Saia - Pink Tamanho P",
+            "name": "Short Saia - Pink Tam. P",
             "dsc": "...",
             "price": 55.90
         },
@@ -65,23 +63,23 @@ var MENU = {
             "price": 45.90
         },
         {
-            "id": "cropped-suel-um",
+            "id": "cropped-farm-um",
             "img": "./img/vitrine/cropped/Cropped Suely (2).png",
-            "name": "Cropped Suely",
+            "name": "Cropped Farm",
             "dsc": "...",
             "price": 54.99
         },
         {
-            "id": "cropped-suel-dois",
+            "id": "cropped-farm-dois",
             "img": "./img/vitrine/cropped/Cropped Suely (3).png",
-            "name": "Cropped Suely",
+            "name": "Cropped Farm",
             "dsc": "...",
             "price": 54.99
         },
         {
-            "id": "cropped-suel-tres",
+            "id": "cropped-farm-tres",
             "img": "./img/vitrine/cropped/Cropped Suely.png",
-            "name": "Cropped Suely",
+            "name": "Cropped Farm",
             "dsc": "...",
             "price": 54.99
         },

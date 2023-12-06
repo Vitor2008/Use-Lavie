@@ -120,7 +120,9 @@ b {
 }
 
 
-
+.navbar-toggler-icon{
+    text-decoration: none!important;
+}
 
 .banner{
     padding-top: 200px;
