@@ -2,40 +2,40 @@ var MENU = {
     "conjunto": [
         {
             "id": "conjunto-laura-farm",
-            "img": "./img/vitrine/conjuntos/Conjunto Laura Farm.png",
+            "img": "./img/vitrine/conjuntos/3.png",
             "name": "Conjunto Laura Farm",
             "dsc": "...",
-            "price": 94.90
+            "price": 84.90
         },
         {
             "id": "conjunto-mali-farm",
-            "img": "./img/vitrine/conjuntos/Conjunto Mali Farm.png",
+            "img": "./img/vitrine/conjuntos/2.png",
             "name": "Conjunto Mali Farm",
             "dsc": "...",
-            "price": 94.90
+            "price": 84.90
         },
         {
             "id": "conjunto-liz-vermelho",
-            "img": "./img/vitrine/conjuntos/Conjunto Liz Vermelho.png",
+            "img": "./img/vitrine/conjuntos/10.png",
             "name": "Conjunto Liz - Vermelho",
             "dsc": "...",
-            "price": 84.99
+            "price": 74.99
         },
     ],
     "macaquinho": [
         {
             "id": "macaquinho-tania-farm",
-            "img": "./img/vitrine/macaquinho/Macaquinho Tânia Farm.png",
+            "img": "./img/vitrine/macaquinho/6.png",
             "name": "Macaquinho Tânia Farm",
             "dsc": "...",
-            "price": 94.90
+            "price": 84.90
         },
         {
             "id": "macaquinho-helena-farm",
-            "img": "./img/vitrine/macaquinho/Macaquinho Helena Farm.png",
+            "img": "./img/vitrine/macaquinho/7.png",
             "name": "Macaquinho Helena Farm",
             "dsc": "...",
-            "price": 94.90
+            "price": 84.90
         },
     ],
     "short": [
@@ -44,11 +44,11 @@ var MENU = {
             "img": "./img/vitrine/short/Short Zara Nude.png",
             "name": "Short Zara - Nude",
             "dsc": "...",
-            "price": 59.90
+            "price": 55.90
         },
         {
             "id": "short-saia",
-            "img": "./img/vitrine/short/Short saia Pink.png",
+            "img": "./img/vitrine/short/5.png",
             "name": "Short Saia - Pink Tam. P",
             "dsc": "...",
             "price": 55.90
@@ -57,31 +57,31 @@ var MENU = {
     "cropped": [
         {
             "id": "cropped-cortininha-azul-marinho",
-            "img": "./img/vitrine/cropped/Cropped cortininha Azul marinho.png",
+            "img": "./img/vitrine/cropped/1.png",
             "name": "Cropped Cortininha - Azul Marinho",
             "dsc": "...",
-            "price": 45.90
+            "price": 39.90
         },
         {
             "id": "cropped-farm-um",
-            "img": "./img/vitrine/cropped/Cropped Suely (2).png",
+            "img": "./img/vitrine/cropped/4.png",
             "name": "Cropped Farm",
             "dsc": "...",
-            "price": 54.99
+            "price": 49.90
         },
         {
             "id": "cropped-farm-dois",
-            "img": "./img/vitrine/cropped/Cropped Suely (3).png",
+            "img": "./img/vitrine/cropped/8.png",
             "name": "Cropped Farm",
             "dsc": "...",
-            "price": 54.99
+            "price": 49.90
         },
         {
             "id": "cropped-farm-tres",
-            "img": "./img/vitrine/cropped/Cropped Suely.png",
+            "img": "./img/vitrine/cropped/9.png",
             "name": "Cropped Farm",
             "dsc": "...",
-            "price": 54.99
+            "price": 49.90
         },
     ],
     
